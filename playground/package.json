@@ -8,11 +8,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@owdproject/core": "workspace:*",
+    "@owdproject/core": "^4.0.0-alpha.3",
     "@owdproject/app-atproto": "workspace:*",
     "nuxt": "^4.4.4",
-    "@owdproject/nuxt-atproto": "workspace:*",
+    "@owdproject/nuxt-atproto": "^4.0.0-alpha.3",
     "@owdproject/theme-win95": "workspace:*",
-    "@owdproject/app-terminal": "workspace:*"
+    "@owdproject/app-terminal": "^4.0.0-alpha.3"
   }
 }
