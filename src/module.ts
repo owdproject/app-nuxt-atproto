@@ -1,3 +1,5 @@
+import { existsSync } from 'node:fs'
+import type { NuxtModule } from '@nuxt/schema'
 import {
   defineNuxtModule,
   createResolver,
@@ -6,7 +8,7 @@ import {
 } from '@nuxt/kit'
 import { registerTailwindPath } from '@owdproject/kit-tailwind/kit/registerTailwindPath'
 
-export default defineNuxtModule({
+const module: NuxtModule<any> = defineNuxtModule({
   meta: {
     name: 'desktop-app-atproto',
   },
@@ -35,14 +37,18 @@ export default defineNuxtModule({
 
     {
       // import i18n
+      const i18nDir = resolve('./runtime/i18n')
+      const enFile = existsSync(resolve('./runtime/i18n/locales/en.js'))
+        ? 'locales/en.js'
+        : 'locales/en.ts'
+
       nuxt.hook('i18n:registerModule', (register) => {
         register({
-          // langDir path needs to be resolved
-          langDir: resolve('./i18n'),
+          langDir: i18nDir,
           locales: [
             {
               code: 'en',
-              file: 'locales/en.ts',
+              file: enFile,
             },
           ],
         })
@@ -50,3 +56,5 @@ export default defineNuxtModule({
     }
   },
 })
+
+export default module

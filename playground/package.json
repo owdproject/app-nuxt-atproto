@@ -11,7 +11,7 @@
     "@owdproject/core": "workspace:*",
     "@owdproject/app-atproto": "workspace:*",
     "nuxt": "^4.4.4",
-    "@owdproject/module-atproto": "workspace:*",
+    "@owdproject/nuxt-atproto": "workspace:*",
     "@owdproject/theme-win95": "workspace:*",
     "@owdproject/app-terminal": "workspace:*"
   }

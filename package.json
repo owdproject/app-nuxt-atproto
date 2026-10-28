@@ -42,7 +42,8 @@
     "@nuxt/kit": "^4.3.0",
     "@owdproject/kit-primevue": "workspace:*",
     "@owdproject/kit-tailwind": "workspace:*",
-    "@owdproject/module-atproto": "workspace:*"
+    "@owdproject/nuxt-atproto": "workspace:*",
+    "nuxt-desktop": "workspace:*"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^1.0.2",
@@ -51,11 +52,12 @@
     "@owdproject/theme-nova": "workspace:*",
     "nuxt": "^4.3.0",
     "typescript": "~5.9.3",
-    "@owdproject/module-atproto": "workspace:*",
+    "@owdproject/nuxt-atproto": "workspace:*",
     "@owdproject/theme-win95": "workspace:*",
     "@owdproject/app-terminal": "workspace:*"
   },
   "peerDependencies": {
-    "@owdproject/core": "^3.4.0"
+    "@owdproject/core": ">=4.0.0-alpha.0",
+    "nuxt-desktop": ">=1.0.0"
   }
 }

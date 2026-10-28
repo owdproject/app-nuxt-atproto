@@ -28,7 +28,7 @@ export default {
     },
   },
   commands: {
-    atproto: (app: IApplicationController, args) => {
+    atproto: (app: any, args) => {
       app.openWindow('account')
     },
   },
