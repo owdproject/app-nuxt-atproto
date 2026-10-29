@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/app-atproto-playground",
+  "name": "@owdproject/app-nuxt-atproto-playground",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/app-atproto": "workspace:*",
+    "@owdproject/app-nuxt-atproto": "workspace:*",
     "nuxt": "^4.4.4",
-    "@owdproject/nuxt-atproto": "^4.0.0-alpha.3",
+    "@owdproject/module-nuxt-atproto": "^4.0.0-alpha.3",
     "@owdproject/theme-win95": "workspace:*",
-    "@owdproject/app-terminal": "^4.0.0-alpha.3"
+    "@owdproject/app-nuxt-terminal": "^4.0.0-alpha.3"
   }
 }

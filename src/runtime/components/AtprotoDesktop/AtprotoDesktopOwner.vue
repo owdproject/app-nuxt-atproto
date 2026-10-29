@@ -2,7 +2,7 @@
 import {
   routeAtprotoOS,
   routeBlueskyProfile,
-} from '@owdproject/nuxt-atproto/runtime/utils/utilRoute'
+} from '@owdproject/module-nuxt-atproto/runtime/utils/utilRoute'
 import { useRuntimeConfig } from 'nuxt/app'
 
 const runtimeConfig = useRuntimeConfig()

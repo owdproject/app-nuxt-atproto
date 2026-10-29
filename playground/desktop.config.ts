@@ -2,7 +2,7 @@ import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
   theme: '@owdproject/theme-win95',
-  apps: ['@owdproject/app-terminal', '@owdproject/app-atproto'],
-  modules: ['@owdproject/nuxt-atproto'],
+  apps: ['@owdproject/app-nuxt-terminal', '@owdproject/app-nuxt-atproto'],
+  modules: ['@owdproject/module-nuxt-atproto'],
   systemBar: { enabled: true, startButton: true },
 })

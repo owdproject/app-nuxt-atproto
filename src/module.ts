@@ -6,7 +6,7 @@ import {
   addComponentsDir,
   addPlugin,
 } from '@nuxt/kit'
-import { registerTailwindPath } from '@owdproject/kit-tailwind/kit/registerTailwindPath'
+import { registerTailwindPath } from '@owdproject/kit-nuxt-tailwind/kit/registerTailwindPath'
 
 const module: NuxtModule<any> = defineNuxtModule({
   meta: {
