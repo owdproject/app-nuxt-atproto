@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useAtprotoAccountStore } from '@owdproject/module-nuxt-atproto/runtime/stores/storeAtprotoAccount'
+import { useAtprotoAccountStore } from '@owdproject/nuxt-module-atproto/runtime/stores/storeAtprotoAccount'
 import AtprotoDesktopOwner from '../AtprotoDesktop/AtprotoDesktopOwner.vue'
 import { onBeforeMount, watch } from 'vue'
 import { computed } from '@vue/reactivity'

@@ -15,7 +15,7 @@ This app for Open Web Desktop allows you to log-in using your AT Protocol accoun
 ## Installation
 
 ```bash
-owd install-app @owdproject/app-nuxt-atproto
+owd install-app @owdproject/nuxt-app-atproto
 ```
 
 ## Requirements
