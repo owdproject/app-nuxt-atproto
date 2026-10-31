@@ -53,7 +53,7 @@
     "nuxt": "^4.3.0",
     "typescript": "~5.9.3",
     "@owdproject/nuxt-module-atproto": "^4.0.0-alpha.3",
-    "@owdproject/nuxt-theme-win95": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-theme-paper": "^4.0.0-alpha.3",
     "@owdproject/nuxt-app-terminal": "^4.0.0-alpha.3"
   },
   "peerDependencies": {
