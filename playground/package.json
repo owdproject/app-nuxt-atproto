@@ -12,7 +12,7 @@
     "@owdproject/nuxt-app-atproto": "workspace:*",
     "@owdproject/nuxt-app-terminal": "^4.0.0-alpha.3",
     "@owdproject/nuxt-module-atproto": "^4.0.0-alpha.3",
-    "@owdproject/theme-win95": "workspace:*",
+    "@owdproject/nuxt-theme-paper": "^4.0.0-alpha.3",
     "jiti": "^2.6.1",
     "nuxt": "^4.4.4",
     "primevue": "^4.5.5",
